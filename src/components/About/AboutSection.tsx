@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { useEffect, useRef } from "react";
@@ -51,62 +49,65 @@ export default function AboutSection() {
         </h2>
 
         <p className="text-center text-zinc-300 max-w-3xl mx-auto text-lg leading-8 mb-16">
-          I'm an Engineering Student passionate about building immersive web
-          experiences, AI-powered applications, and educational technology.
-          Currently developing StackVerse, a 3D gamified DSA learning platform
-          that transforms data structures and algorithms into interactive worlds.
+          Computer Science Engineering student and Founder & Developer of StackVerse Labs. I build educational technology products, immersive web experiences, and full-stack applications that make learning more engaging and accessible. Currently developing StackVerse, a gamified DSA learning platform featuring six interactive learning worlds, authentication, XP progression, achievements, missions, and visual algorithm demonstrations.
         </p>
 
-        <div ref={cardsRef} className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="bg-white/5 backdrop-blur-sm border border-emerald-500/20 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-[1.04] hover:shadow-[0_0_60px_rgba(16,185,129,0.25)] transition-all duration-500">
-            <div className="text-5xl mb-4">🚀</div>
-            <h3 className="text-3xl font-bold">5+</h3>
-            <p className="text-zinc-400 mt-2">Projects Built</p>
-          </div>
+        <div className="max-w-fit mx-auto mb-12 px-6 py-3 rounded-full bg-white/5 backdrop-blur-sm border border-cyan-500/20 text-center">
+          <span className="text-zinc-200 font-medium">
+            🎓 Dayananda Sagar University • B.Tech CSE • <span className="text-cyan-300">2028</span>
+          </span>
+        </div>
 
-          <div className="bg-white/5 backdrop-blur-sm border border-cyan-500/20 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-[1.04] hover:shadow-[0_0_60px_rgba(34,211,238,0.25)] transition-all duration-500">
-            <div className="text-5xl mb-4">💻</div>
-            <h3 className="text-3xl font-bold">15+</h3>
-            <p className="text-zinc-400 mt-2">Technologies</p>
-          </div>
-
-          <div className="bg-white/5 backdrop-blur-sm border border-blue-500/20 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-[1.04] hover:shadow-[0_0_60px_rgba(59,130,246,0.25)] transition-all duration-500">
+        <div ref={cardsRef} className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto perspective-[1200px]">
+          <div className="bg-white/5 backdrop-blur-sm border border-emerald-500/20 rounded-3xl p-10 text-center hover:-translate-y-6 hover:scale-[1.06] hover:rotate-[1deg] hover:border-white/30 hover:shadow-[0_0_60px_rgba(16,185,129,0.25)] transition-all duration-500">
             <div className="text-5xl mb-4">🌍</div>
-            <h3 className="text-3xl font-bold">3+</h3>
-            <p className="text-zinc-400 mt-2">Live Deployments</p>
+            <h3 className="text-3xl font-bold">6</h3>
+            <p className="text-zinc-400 mt-2">Learning Worlds</p>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-sm border border-violet-500/20 rounded-3xl p-10 text-center hover:-translate-y-4 hover:scale-[1.04] hover:shadow-[0_0_60px_rgba(139,92,246,0.25)] transition-all duration-500">
-            <div className="text-5xl mb-4">🎮</div>
+          <div className="bg-white/5 backdrop-blur-sm border border-cyan-500/20 rounded-3xl p-10 text-center hover:-translate-y-6 hover:scale-[1.06] hover:rotate-[1deg] hover:border-white/30 hover:shadow-[0_0_60px_rgba(34,211,238,0.25)] transition-all duration-500">
+            <div className="text-5xl mb-4">🚀</div>
+            <h3 className="text-3xl font-bold">StackVerse Labs</h3>
+            <p className="text-zinc-400 mt-2">Founder & Developer</p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm border border-blue-500/20 rounded-3xl p-10 text-center hover:-translate-y-6 hover:scale-[1.06] hover:rotate-[1deg] hover:border-white/30 hover:shadow-[0_0_60px_rgba(59,130,246,0.25)] transition-all duration-500">
+            <div className="text-5xl mb-4">⚡</div>
+            <h3 className="text-3xl font-bold">Full Stack</h3>
+            <p className="text-zinc-400 mt-2">Builder</p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm border border-violet-500/20 rounded-3xl p-10 text-center hover:-translate-y-6 hover:scale-[1.06] hover:rotate-[1deg] hover:border-white/30 hover:shadow-[0_0_60px_rgba(139,92,246,0.25)] transition-all duration-500">
+            <div className="text-5xl mb-4">👑</div>
             <h3 className="text-3xl font-bold">StackVerse</h3>
-            <p className="text-zinc-400 mt-2">Flagship Project</p>
+            <p className="text-zinc-400 mt-2">Flagship Product</p>
           </div>
         </div>
 
         <div className="mt-20 max-w-4xl mx-auto">
           <h3 className="text-3xl font-bold text-center mb-10 text-white">
-            My Journey
+            Journey Timeline
           </h3>
 
           <div className="space-y-6">
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
               <span className="text-emerald-400 font-bold">2025</span>
-              <p className="mt-2 text-zinc-300">Started learning modern web development and React.</p>
+              <p className="mt-2 text-zinc-300">🚀 Started learning modern web development and React.</p>
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
               <span className="text-cyan-400 font-bold">2025</span>
-              <p className="mt-2 text-zinc-300">Built AI projects and explored full-stack development.</p>
+              <p className="mt-2 text-zinc-300">🤖 Built AI and analytics projects while exploring full-stack development.</p>
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
               <span className="text-violet-400 font-bold">2026</span>
-              <p className="mt-2 text-zinc-300">Created StackVerse, a 3D gamified DSA learning platform.</p>
+              <p className="mt-2 text-zinc-300">👑 Founded StackVerse Labs and created StackVerse.</p>
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
               <span className="text-amber-400 font-bold">2026</span>
-              <p className="mt-2 text-zinc-300">Built an immersive portfolio using Next.js, Three.js and GSAP.</p>
+              <p className="mt-2 text-zinc-300">🌐 Launched an immersive portfolio using Next.js, Three.js and GSAP.</p>
             </div>
           </div>
         </div>
