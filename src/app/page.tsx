@@ -2,6 +2,7 @@ import Scene from "@/components/Hero/Scene";
 import HeroContent from "@/components/Hero/HeroContent";
 import ProjectsSection from "@/components/Projects/ProjectsSection";
 import SkillsSection from "@/components/Skills/SkillsSection";
+import CertificationsSection from "@/components/Certifications/CertificationsSection";
 import AboutSection from "@/components/About/AboutSection";
 import ContactSection from "@/components/Contact/ContactSection";
 
@@ -15,6 +16,7 @@ export default function Home() {
 
       <ProjectsSection />
       <SkillsSection />
+      <CertificationsSection />
       <AboutSection />
       <ContactSection />
     </main>

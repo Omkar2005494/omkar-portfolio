@@ -116,7 +116,7 @@ export default function ProjectsSection() {
               <div className="absolute bottom-16 left-20 w-2 h-2 rounded-full bg-violet-300 animate-pulse" />
               <div className="absolute bottom-10 right-10 w-1.5 h-1.5 rounded-full bg-emerald-200 animate-pulse" />
             </div>
-            <div className="relative h-64 rounded-2xl overflow-hidden border border-white/10 mb-6 bg-white p-2 shadow-xl">
+            <div className="relative h-52 rounded-2xl overflow-hidden border border-white/10 mb-6 bg-white p-2 shadow-xl">
               <img
                 src="/projects/stackverse-banner.png"
                 alt="StackVerse"
@@ -131,11 +131,37 @@ export default function ProjectsSection() {
                 🚀 Active Development
               </span>
             </div>
-            <h3 className="relative text-3xl font-bold mb-4">StackVerse</h3>
+            <h3 className="relative text-3xl font-bold mb-3">StackVerse</h3>
+
+            <div className="flex flex-wrap gap-2 mb-4 text-xs">
+              <span className="px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-300">
+                🌍 6 Learning Worlds
+              </span>
+              <span className="px-3 py-1 rounded-full bg-cyan-500/15 text-cyan-300">
+                🔐 Authentication
+              </span>
+              <span className="px-3 py-1 rounded-full bg-amber-500/15 text-amber-300">
+                🚀 Live
+              </span>
+            </div>
             <p className="text-zinc-400 mb-6">
-              StackVerse is a gamified DSA learning platform that transforms Data Structures and Algorithms into interactive learning worlds. Built with React and Firebase, it features authentication, XP progression, achievements, missions, and visual algorithm demonstrations across six learning worlds.
+              StackVerse is a gamified DSA learning platform designed to transform traditional theory into interactive experiences. Students learn through immersive worlds, progression systems, achievements, and visual algorithm exploration.
             </p>
-            <span className="text-sm text-emerald-400">React • Firebase • Authentication • XP System • Achievements • 6 Learning Worlds</span>
+            <span className="text-sm text-emerald-400">React • Firebase • Next.js • Authentication • Gamification</span>
+            <div className="grid grid-cols-2 gap-3 mt-6 mb-2">
+              <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-3 py-2 text-sm">
+                ✓ 6 Learning Worlds
+              </div>
+              <div className="rounded-xl bg-cyan-500/10 border border-cyan-500/20 px-3 py-2 text-sm">
+                ✓ Google & Email Auth
+              </div>
+              <div className="rounded-xl bg-violet-500/10 border border-violet-500/20 px-3 py-2 text-sm">
+                ✓ XP & Achievements
+              </div>
+              <div className="rounded-xl bg-amber-500/10 border border-amber-500/20 px-3 py-2 text-sm">
+                ✓ Persistent Progress
+              </div>
+            </div>
             <div className="relative z-20 flex gap-3 mt-6 flex-wrap">
               <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs">
                 🎮 6 Worlds
@@ -144,7 +170,7 @@ export default function ProjectsSection() {
                 ⚡ XP System
               </span>
               <span className="px-3 py-1 rounded-full bg-violet-500/20 text-violet-400 text-xs">
-                🧠 DSA Learning
+                🧠 Interactive Learning
               </span>
             </div>
             <div className="relative z-20 flex gap-3 mt-6">
@@ -152,7 +178,7 @@ export default function ProjectsSection() {
                 href="https://stackverse-nu.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-xl bg-emerald-500 text-black font-semibold"
+                className="px-5 py-2 rounded-xl bg-emerald-500 text-black font-semibold hover:scale-105 transition-transform"
               >
                 Live Demo
               </a>
@@ -160,7 +186,7 @@ export default function ProjectsSection() {
                 href="https://github.com/Omkar2005494/-stackverse"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-xl border border-white/20"
+                className="px-5 py-2 rounded-xl border border-white/20 hover:border-emerald-400/50 transition-all"
               >
                 GitHub
               </a>
